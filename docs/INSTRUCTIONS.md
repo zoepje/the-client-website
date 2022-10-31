@@ -33,8 +33,8 @@ Voor deze leertaak gelden de gedragscriteria voor sprint 2:
 * Methodisch handelen: Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
 * Methodisch handelen: Je realiseert een oplossing voor een opdrachtgever
 * Samenwerken: Je draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback
-* Probleemplossend vermogen: Je analyseert een vraag en volgt de aangeboden oplossingsrichting
-* Probleemplossend vermogen: Je schetst om gedachten en processen te verkennen
+* Probleemoplossend vermogen: Je analyseert een vraag en volgt de aangeboden oplossingsrichting
+* Probleemoplossend vermogen: Je schetst om gedachten en processen te verkennen
 
 Deze opdracht is done als:
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
