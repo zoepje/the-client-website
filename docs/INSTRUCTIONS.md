@@ -3,7 +3,12 @@
 Ontwerp en maak een component / website voor een bedrijf en presenteer het resultaat.
 
 ## Context
-Deze leertaak hoort bij sprint 2 The Client. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
+Deze leertaak hoort bij sprint 2 The Client. 
+Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
+
+Bij deze leertaak hoort de deeltaak:
+- [The Cient - Briefing/Debriefing](https://github.com/fdnd-task/the-client-briefing-debriefing/)
+
 
 ## Doel van deze opdracht
 Je leert hoe je aan de hand van een user story een (gedeelte van een) website kan ontwerpen en bouwen.
