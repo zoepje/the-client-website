@@ -30,16 +30,9 @@ De development lifecycle kent de volgende stappen:
 4. Documenteer je proces a.h.v de development life cycle
 5. En schrijf een goede readme
 
-## Criteria
+## Definition of done
 
-De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.
-
-Voor deze leertaak gelden de gedragscriteria voor sprint 2: 
-* Methodisch handelen: Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
-* Methodisch handelen: Je realiseert een oplossing voor een opdrachtgever
-* Samenwerken: Je draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback
-* Probleemoplossend vermogen: Je analyseert een vraag en volgt de aangeboden oplossingsrichting
-* Probleemoplossend vermogen: Je schetst om gedachten en processen te verkennen
+Focus sprint 2: The client - De focus van deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat.
 
 Deze opdracht is done als:
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
