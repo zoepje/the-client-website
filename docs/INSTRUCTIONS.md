@@ -7,7 +7,7 @@ Deze leertaak hoort bij sprint 2 The Client.
 Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
 Bij deze leertaak hoort de deeltaak:
-- [The Cient - Briefing/Debriefing](https://github.com/fdnd-task/the-client-briefing-debriefing/)
+- [The Client - Briefing/Debriefing](https://github.com/fdnd-task/the-client-briefing-debriefing/)
 
 
 ## Doel van deze opdracht
