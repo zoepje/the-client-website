@@ -56,12 +56,19 @@ Alhoewel de Hallen groter is dan dit project wilt de hallen niet per se een groo
 
 ### Vragen die we nog hebben over het project
 •	Wat is de content nou eigenlijk?
+
 •	Kunnen we de content specifieker maken?
+
 •	Wie kan het initiatief toevoegen? Is het iedereen uit de buurt of alleen het bedrijf zelf?
+
 •	Heb je een account nodig om iets toe te voegen? / Hoe zien jullie het voor jullie dat iemand iets toevoegt? Bijvoorbeeld een contactformulier.
+
 •	Is er een contentbeheerder voor de website?
+
 •	Zijn er dingen die jullie absoluut niet willen op deze website?
+
 •	Hoe vaak willen jullie contact nemen met ons?
+
 •	Wat moet er echt in de website staan?
 
 
