@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--Link naar css bestand-->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Buurtinitiatieven</title>
 
@@ -13,28 +16,30 @@
 <body>
     <header>
         <h1>Buurtinitiatieven</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="catogoriepagina.html">Kids</a>
-                </li>
-                <li>
-                    <a href="catogoriepagina.html">Muziek</a>
-                </li>
-                <li>
-                    <a href="catogoriepagina.html">Film</a>
-                </li>
-            </ul>
-        </nav>
-
-        <form>
-            <input type="search" name="search"/>
-            <button>Search</button>
-        </form>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="catogoriepagina.html">Kids</a>
+            </li>
+            <li>
+                <a href="catogoriepagina.html">Muziek</a>
+            </li>
+            <li>
+                <a href="catogoriepagina.html">Film</a>
+            </li>
+            <li>
+                <form>
+                    <input type="search" placeholder="Zoeken...." name="search"/>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
 
     <main>
         <section>
@@ -68,7 +73,7 @@
                     <a href="buurtinitiatief.html">
                         <article>
                             <img src="assets/heart.jpg" alt="hi" width="50" height="50"> 
-                            Buurtinitiatief 4 
+                            Buurtinitiatief 4
                         </article>
                     </a>
                 </li>
