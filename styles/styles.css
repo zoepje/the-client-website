@@ -29,7 +29,7 @@ nav {
 }
 
 nav ul{
-    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,7 +41,12 @@ nav ul li{
 }
 
 /* SEARCH */
-form button{
+.search{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.search button{
     background: #2196F3;
     color: white;
     font-size: 17px;
@@ -55,6 +60,7 @@ main {
     background-color: rgb(0, 255, 8);
 }
 
+/* Initiatieven */
 a {
     text-decoration: none;
     color: black;
@@ -79,7 +85,6 @@ section ul{
 
 section ul li{
     display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
-
 }
 
 article{
@@ -107,11 +112,11 @@ footer {
 
 /* MEDIAQUERYS */
 @media only screen and (min-width: 600px){
-    header {
-        background-color: blue;
-    }
-    
     article {
         max-width: 200px;
+    }
+
+    article img{
+        max-width: 170px;
     }
 }
