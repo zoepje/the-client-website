@@ -78,7 +78,6 @@ section h2{
 }
 
 section ul{
-    list-style: none;
     overflow: auto;
     white-space: nowrap;
 }

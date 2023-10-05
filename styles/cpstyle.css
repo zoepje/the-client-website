@@ -1,7 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 /* FLITER */
 .filter {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
 }
 
 .filter div{
@@ -11,6 +17,24 @@
 }
 
 /* Initiatieven */
-main ul{
-    padding: 0 3rem;
+.initiattief{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
+    justify-content: center;
+    width: 100vw;
+}
+
+.initiattief li{
+    padding: 1.5em;
+    width: 300px;
+    align-content: center;
+}
+
+
+/* MEDIAQUERYS */
+@media only screen and (min-width: 600px){
+    .filter{
+        max-width: 500px;
+    }
 }
