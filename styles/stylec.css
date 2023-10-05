@@ -1,0 +1,12 @@
+/* FLITER */
+.filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.filter div{
+    padding: 1em;
+    margin: 1em;
+    background-color: gray;
+}
+
