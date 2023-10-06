@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 /* FLITER */
 .filter {
     display: grid;
@@ -17,7 +13,7 @@
 }
 
 /* Initiatieven */
-.initiattief{
+.initiatief{
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
@@ -25,7 +21,7 @@
     width: 100vw;
 }
 
-.initiattief li{
+.initiatief li{
     padding: 1.5em;
     width: 300px;
     align-content: center;

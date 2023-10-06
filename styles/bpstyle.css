@@ -2,13 +2,45 @@
 body {
     display: grid;
     grid-template-areas:
-      "a"
-      "m"
-      "f";
+        "n"
+        "s"
+        "m"
+        "r"
+        "f";
     grid-row-gap: 20px;
     grid-column-gap: 20px;
 }
 
-aside {
-    grid-area: a;
+.recommend-lab{
+    display: none;
+}
+
+.search{
+    grid-area: s;
+}
+
+/* MEDIAQUERYS */
+@media only screen and (min-width: 600px){
+    /* BODY */
+    body {
+        display: grid;
+        grid-template-columns: 0.5fr 3fr;
+        grid-template-areas:
+          "a m"
+          "f f";
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    aside {
+        grid-area: a;
+    }
+
+    .recommend-m{
+        display: none;
+    }
+
+    .recommend-lab{
+        display: block;
+    }
 }
