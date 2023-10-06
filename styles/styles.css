@@ -12,8 +12,6 @@ body {
       "n"
       "m"
       "f";
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
 }
 
 /* HEADER */
@@ -79,16 +77,16 @@ section h2{
     text-align: center;
 }
 
-section ul{
+.scroll{
     overflow: auto;
     white-space: nowrap;
 }
 
-section ul li{
+.scroll li{
     display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
 }
 
-article{
+.card{
     margin: 0 2em;
     padding: 1.5em;
     display: flex;
@@ -99,7 +97,7 @@ article{
     height: 30vh;
 }  
 
-article img{
+.card img{
     width: 40vw;
     height: 20vh;
     align-self: center;
@@ -113,11 +111,11 @@ footer {
 
 /* MEDIAQUERYS */
 @media only screen and (min-width: 600px){
-    article {
+    .card {
         max-width: 200px;
     }
 
-    article img{
+    .card img{
         max-width: 170px;
     }
 }

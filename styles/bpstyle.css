@@ -1,22 +1,32 @@
-/* BODY */
-body {
-    display: grid;
-    grid-template-areas:
-        "n"
-        "s"
-        "m"
-        "r"
-        "f";
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
-}
-
+/* Bekijk ook in aside */
 .recommend-lab{
-    display: none;
+    display: none; /*Zorgt ervoor dat hij niet zichtbaar is op mobile*/
 }
 
-.search{
-    grid-area: s;
+/* NAV (Hamburger menu)*/
+
+/* MAIN */
+.topImg{
+    width: 100vw;
+    height: 30vh;
+}
+
+article{
+    width: 100vw;
+    padding: 1em 2em;
+    background: #0a6fd4;
+}
+
+article h1{
+    text-align: center;
+}
+
+section{
+    padding: 1em;
+}
+
+section img{
+    align-self: center;
 }
 
 /* MEDIAQUERYS */
@@ -24,24 +34,40 @@ body {
     /* BODY */
     body {
         display: grid;
-        grid-template-columns: 0.5fr 3fr;
+        grid-template-columns: 1fr 3fr;
         grid-template-areas:
           "a m"
           "f f";
-        grid-row-gap: 20px;
-        grid-column-gap: 20px;
     }
 
+    /* ASIDE */
     aside {
         grid-area: a;
     }
 
-    .recommend-m{
-        display: none;
+    /* SEARCH */
+    .search input{
+        width: 20vw;
     }
 
+    /* Bekijk ook in aside */
     .recommend-lab{
-        display: block;
+        display: block; /*Zorgt ervoor dat hij zichtbaar is op laptop*/
+    }
+
+    /* MAIN */
+    .topImg{
+        width: 75vw;
+        height: 40vh;
+    }
+
+    /* Bekijk ook in main */
+    .recommend-m{
+        display: none; /*Zorgt ervoor dat hij niet zichtbaar is op laptop*/
+    }
+
+    article{
+        width: 75vw;
     }
 }
 
