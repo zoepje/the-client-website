@@ -81,6 +81,7 @@ section h2{
 .scroll{
     overflow: auto;
     white-space: nowrap;
+    list-style: none;
 }
 
 .scroll li{
@@ -92,20 +93,27 @@ section h2{
     padding: 1.5em;
     display: flex;
     flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
-    background: #0a6fd4;
+    background: #0a6dd0;
     position: relative;
     width: 50vw;
     height: 35vh;
+    min-height: 200px;
 }  
 
 .card img{
     width: 35vw;
     height: 15vh;
     align-self: center;
+    min-height: 50px;
+}
+
+.card h3{
+    overflow-x: unset;
 }
 
 .card p {
     margin-top: -10px;
+    overflow-x: unset;
 }
 
 /* FOOTER */

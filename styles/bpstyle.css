@@ -29,6 +29,10 @@ section img{
     align-self: center;
 }
 
+.info ul {
+    list-style: none;
+}
+
 /* MEDIAQUERYS */
 @media only screen and (min-width: 600px){
     /* BODY */
