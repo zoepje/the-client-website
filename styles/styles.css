@@ -93,14 +93,18 @@ section h2{
     flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
     background: #0a6fd4;
     position: relative;
-    width: 40vw;
-    height: 30vh;
+    width: 50vw;
+    height: 35vh;
 }  
 
 .card img{
-    width: 40vw;
-    height: 20vh;
+    width: 35vw;
+    height: 15vh;
     align-self: center;
+}
+
+.card p {
+    margin-top: -10px;
 }
 
 /* FOOTER */
@@ -116,6 +120,6 @@ footer {
     }
 
     .card img{
-        max-width: 170px;
+        max-width: 150px;
     }
 }
