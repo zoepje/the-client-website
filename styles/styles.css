@@ -6,25 +6,27 @@
 
 /* BODY */
 body {
+    margin: 0;
     display: grid;
     grid-template-areas:
       "h"
       "n"
       "m"
       "f";
+    background: #fffaea;
 }
 
 /* HEADER */
 header {
     grid-area: h;
-    background-color: aqua;
+    background: #1876b5;
     text-align: center;
 }
 
 /* NAV */
 nav {
     grid-area: n;
-    background-color: red;
+    background: #46aa64;
 }
 
 nav ul{
@@ -58,7 +60,6 @@ nav ul li{
 /* MAIN */
 main {
     grid-area: m;
-    background-color: rgb(0, 255, 8);
 }
 
 /* Initiatieven */
@@ -71,11 +72,11 @@ section{
     margin: 3em 1em;
     display: flex;
     flex-direction: column;
-    background: hotpink;
 }
 
 section h2{
     text-align: center;
+    font-style: italic;
 }
 
 .scroll{
@@ -90,11 +91,11 @@ section h2{
 
 .card{
     margin: 0 2em;
-    padding: 1.5em;
+    padding: 0 1.5em;
     display: flex;
     flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
     overflow-x: unset;
-    background: #0a6dd0;
+    background: #1876b5;
     position: relative;
     width: 50vw;
     height: 35vh;
@@ -102,8 +103,8 @@ section h2{
 }  
 
 .card img{
-    width: 35vw;
-    height: 25vh;
+    width: 100vw;
+    height: 50vh;
     align-self: center;
     min-height: 70px;
 }
@@ -120,7 +121,9 @@ section h2{
 /* FOOTER */
 footer {
     grid-area: f;
-    background-color: rgb(255, 0, 234);
+    padding: 1em;
+    background: #0a334f;
+    color: #fff1c4;
 }
 
 /* MEDIAQUERYS */
@@ -130,6 +133,6 @@ footer {
     }
 
     .card img{
-        max-width: 150px;
+        max-width: 200px;
     }
 }
