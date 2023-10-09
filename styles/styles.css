@@ -51,9 +51,9 @@ nav ul li{
 
 .search button{
     background: #2196F3;
-    color: white;
+    color: #ffffff;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     cursor: pointer;
 }
 
@@ -107,6 +107,7 @@ section h2{
     height: 50vh;
     align-self: center;
     min-height: 70px;
+    max-width: 190px;
 }
 
 .card h3{
