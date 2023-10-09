@@ -93,18 +93,19 @@ section h2{
     padding: 1.5em;
     display: flex;
     flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
+    overflow-x: unset;
     background: #0a6dd0;
     position: relative;
     width: 50vw;
     height: 35vh;
-    min-height: 200px;
+    min-height: 250px;
 }  
 
 .card img{
     width: 35vw;
-    height: 15vh;
+    height: 25vh;
     align-self: center;
-    min-height: 50px;
+    min-height: 70px;
 }
 
 .card h3{
