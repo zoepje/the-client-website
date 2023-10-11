@@ -28,7 +28,30 @@ Initiatief pagina:
 🌐 Link naar mijn live versie -  https://zoepje.github.io/the-client-website/ 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb deze website gemaakt met HTML en CSS. Voor elke pagina heb ik een ander HTML bestand aangemaakt. Ik heb gebruik gemaakt van een standaard HTML sturctuur: head en body. Per pagina ziet de body er iets anders uit. maar in het algemeen heb ik gebruik gemaakt van een header, nav, main, aside en footer. 
+
+Ik heb één main css bestand voor alle paginas, waarin de standaard opmaak staat. En voor de initiatief pagina/categorie pagina heb ik nog extra css bestanden, waarin ik wat specefiekere elementen heb opgemaakt. Zoals bijvoorbeeld de grid van de categorie pagina.
+
+```
+/* Initiatieven */
+.initiatief{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
+    justify-content: center;
+    width: 100vw;
+    list-style: none;
+}
+
+
+.initiatief li{
+    padding: 1.5em;
+    width: 300px;
+    align-content: center;
+}
+```
+
+Verdere uitleg over hoe ik deze website heb gebouwd kunt u [hier](https://github.com/zoepje/the-client-website/wiki/3.-Bouwen) vinden.
 
 ## Bronnen
 * W3S - https://www.w3schools.com/
