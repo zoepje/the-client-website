@@ -14,6 +14,7 @@ body {
       "m"
       "f";
     background: #fffaea;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -80,8 +81,8 @@ section h2{
 }
 
 .scroll{
-    overflow: auto;
-    white-space: nowrap;
+    overflow: auto; /*Zorgt ervoor dat de lijst scrolled*/
+    white-space: nowrap; /*Zorgt ervoor dat de lijst op een lijn blijft staan*/
     list-style: none;
 }
 
