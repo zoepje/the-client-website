@@ -20,7 +20,7 @@ body {
 /* HEADER */
 header {
     grid-area: h;
-    background: #1876b5;
+    background: #36A1E9;
     text-align: center;
 }
 
@@ -51,10 +51,10 @@ nav ul li{
 }
 
 .search button{
-    background: #2196F3;
+    background: #43525D;
     color: #ffffff;
     font-size: 17px;
-    border: 1px solid #808080;
+    border: 0px solid;
     cursor: pointer;
 }
 
@@ -96,7 +96,7 @@ section h2{
     display: flex;
     flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
     overflow-x: unset;
-    background: #1876b5;
+    background: #36A1E9;
     position: relative;
     width: 50vw;
     height: 35vh;
