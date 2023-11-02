@@ -7,26 +7,18 @@
 /* BODY */
 body {
     margin: 0;
-    display: grid;
-    grid-template-areas:
-      "h"
-      "n"
-      "m"
-      "f";
     background: #fffaea;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
 header {
-    grid-area: h;
     background: #36A1E9;
     text-align: center;
 }
 
 /* NAV */
 nav {
-    grid-area: n;
     background: #46aa64;
 }
 
@@ -59,10 +51,6 @@ nav ul li{
 }
 
 /* MAIN */
-main {
-    grid-area: m;
-}
-
 /* Initiatieven */
 a {
     text-decoration: none;
@@ -122,7 +110,6 @@ section h2{
 
 /* FOOTER */
 footer {
-    grid-area: f;
     padding: 1em;
     background: #0a334f;
     color: #fff1c4;
