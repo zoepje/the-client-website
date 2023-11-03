@@ -13,17 +13,23 @@ De directie van De Hallen heeft ons gevraagt om een website te bouwenvanuit de n
 Voor dit project heb ik de [user story](https://github.com/fdnd-agency/de-hallen/issues/1) die zegt: Als buurtbewoner van Amsterdam West wil ik een overzicht van alle buurtinitiatieven kunnen bekijken, zodat ik een indruk kan krijgen van wat er allemaal te doen is in de wijk.
 
 **📸 Dit is hoe de website er uitziet.**
+<img width="1381" 
+<img width="1381" >
 
 Home pagina:
-<img width="1227" alt="Screenshot 2023-10-11 at 11 26 44 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/fe7bcfb7-df9d-4b22-8a91-727520c48968">
-<img width="1222" alt="Screenshot 2023-10-11 at 11 27 01 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/c4892f07-4189-46ad-8bf4-c036296edb54">
+
+<img width="1227" alt="Screenshot 2023-10-11 at 11 26 44 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/a2d7c3c9-3a3c-418b-8e76-9c13c137071a">
+<img width="1222" alt="Screenshot 2023-10-11 at 11 27 01 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/8a159b5f-7121-4346-85bf-8bfcedbf2523">
 
 Categorie pagina:
-<img width="1227" alt="Screenshot 2023-10-11 at 11 56 02 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/532b314f-72b0-4c2e-ac98-bf7aa44783c2">
+<img width="1227" alt="Screenshot 2023-10-11 at 11 56 02 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/a055a698-3571-470e-96f8-03fdcae87318">
 
 Initiatief pagina:
-<img width="1227" alt="Screenshot 2023-10-11 at 11 59 28 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/d8ece3b4-742e-4b2d-86cc-a7eaf0cce103">
-<img width="1227" alt="Screenshot 2023-10-11 at 11 59 34 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/47bcb9a7-c3d8-451d-a94e-581d8b365433">
+<img width="1227" alt="Screenshot 2023-11-03 at 10 29 36 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/e485b647-108e-406f-8e94-9cbf55cc2386">
+<img width="1227" alt="Screenshot 2023-11-03 at 10 29 42 AM" src="https://github.com/zoepje/the-client-website/assets/144004461/c294a435-8946-48fe-8f37-2deb2eff1905">
+
+Contact pagina:
+<img width="1227" alt="Screenshot 2023-11-3" src="https://github.com/zoepje/the-client-website/assets/144004461/a47fa06d-4a6c-4f0c-b978-4d6a207694a0">
 
 🌐 Link naar mijn live versie -  https://zoepje.github.io/the-client-website/ 
 
